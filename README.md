@@ -51,4 +51,4 @@ new_text = ["The product is excellent and I love it."]
 new_vector = vectorizer.transform(new_text)
 prediction = model.predict(new_vector)
 
-print("\nPrediction:", prediction[0])
+print("\nPrediction:", prediction[0]) 
